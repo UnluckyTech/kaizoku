@@ -2,7 +2,7 @@
 
 FROM ghcr.io/linuxserver/baseimage-ubuntu:jammy as base
 
-RUN curl -fsSL https://deb.nodesource.com/setup_18.x | bash -
+RUN curl -fsSL https://deb.nodesource.com/setup_20.x | bash -
 RUN apt install -y --no-install-recommends nodejs \
   libglib2.0-0 \
   libnss3 \
